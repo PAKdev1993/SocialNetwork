@@ -1,0 +1,12 @@
+/* redef */
+.body{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+iframe{
+    position:absolute;
+}
+iframe #masthead{
+    display:none;
+}

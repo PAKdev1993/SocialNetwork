@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Title</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0, maximum-scale=1.0;">
+        <style>
+            tr{
+                border:1px solid red;
+            }
+            td{
+                border:1px solid green;
+            }
+            table{
+                border:1px solid black;
+            }
+        </style>
+    </head>
+    <body marginwidth="0" marginheight="0">
+        <table border="0" style="width:100%" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td rowspan="30" width="10%"></td>
+                    <td colspan="10" width="80%"></td>
+                    <td rowspan="30" width="10%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                </tr>
+                <tr>
+                    <td align="center" width="80%" valign="top" colspan="6">
+                        <img src="http://worldesport.com/public/img/email/headerNotifs.jpg" tabindex="0" width="100%">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size:5px;line-height:5px" height="5" colspan="6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="font-size:13px;line-height:20px;text-align:left;font-weight:bold" valign="center" colspan="6">Brudor</td>
+                </tr>
+                <tr>
+                    <td style="font-size:10px;line-height:10px" height="10" colspan="6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="font-size:13px;line-height:20px;text-align:left;font-weight:bold" valign="center" colspan="6">Marc â€œvazyâ€ Berthold liked your post:</td>
+                </tr>
+                <tr>
+                    <td width="10%" style="background-color:#F3F3F3;border-top: 2px solid rgba(243,177,75,1);border-left:2px solid rgba(243,177,75,1);border-top-left-radius:8px;" rowspan="3" align="center">
+                        <img style="width:50px; height:50px; margin:auto" src="http://worldesport.com/public/img/default/defaultprofile.png" alt="WorldEsport default profile pic" style="opacity: 1;">
+                    </td>
+                    <td width="60%" style="font-weight:bold;background-color:#F3F3F3;font-family:'Helvetica',sans-serif;border-top: 2px solid rgba(243,177,75,1);">
+                        Pierre-Alexis "shrrr" krstic
+                    </td>
+                    <td width="30%" style="background-color:#F3F3F3;font-weight:bold;font-family:'Helvetica',sans-serif;border-top: 2px solid rgba(243,177,75,1);border-right:2px solid rgba(243,177,75,1);border-top-right-radius:8px;" rowspan="3" align="center">
+                        2016/10/14
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60%" style="background-color:#F3F3F3;font-family:'Helvetica',sans-serif;">
+                        Player sur FIFA - PC, PS4, XBOX ONE chez Playing Ducks
+                    </td>
+                </tr>
+                <tr>
+                    <td width="60%" style="background-color:#F3F3F3;font-family:'Helvetica',sans-serif;">
+                        PC,PS4,Smartphone chez Aucune
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size:10px;line-height:10px;border-left: 2px solid rgba(243,177,75,1);border-right: 2px solid rgba(243,177,75,1);" width="80%" height="10" colspan="6">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="border-left: 2px solid rgba(243,177,75,1);font-size:20px;line-height:100px;text-align:right;padding-right:10px;" width="80%" height="10" colspan="2">
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://localhost/WEindev/inc/Auth/confirm.php?id=$user_id&token=$token" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="25%" strokecolor="#ED7D31" fillcolor="#F9B14C">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Show me the button!</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        <a href="'. $this->confirmlink .'" style="background-color:#F9B14C;border:4px solid #ED7D31;border-radius:15px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:18px;font-weight:bold;line-height:51px;text-align:center;text-decoration:none;width:263px;-webkit-text-size-adjust:none;mso-hide:all;">Confirm your email</a>
+                    </td>
+                    <td style="border-right: 2px solid rgba(243,177,75,1);font-size:20px;line-height:60px;text-align:right;padding-right:5%;" width="50%" height="10" colspan="2">
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://worldesport.com/'. $this->linkNotif .'" style="height:40px;v-text-anchor:middle;width:200px;" arcsize="25%" strokecolor="#ED7D31" fillcolor="#F9B14C">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">'. $this->traducedBt[0]->bt_view_profile .'</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        <a href="http://worldesport.com/'. $this->linkNotif .'" style="background-color:#F9B14C;border:4px solid #ED7D31;border-radius:15px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;">'. $this->traducedBt[0]->bt_view_profile .'</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size:10px;line-height:10px;border-left: 2px solid rgba(243,177,75,1);border-right: 2px solid rgba(243,177,75,1);border-bottom: 2px solid rgba(243,177,75,1);border-bottom-left-radius:8px;border-bottom-right-radius:8px;" width="80%" height="10" colspan="6">&nbsp;</td>
+                </tr>
+                <tr><td style="font-size:20px;line-height:20px" width="80%" height="20" colspan="6">&nbsp;</td></tr>
+                <tr><td style="font-size:10px;line-height:15px;text-align:center" valign="center" colspan="6">Copyright © 2016 World eSport Ltd</td></tr>
+                <tr><td style="font-size:10px;line-height:15px;text-align:center" valign="center" colspan="6"><a href="http://worldesport.com/index.php?p=terms-and-conditions" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=fr&amp;q=http://worldesport.com/index.php?p%3Dterms-and-conditions&amp;source=gmail&amp;ust=1477140002478000&amp;usg=AFQjCNF3lkOWNho7kC16Q4vQRYE4RfIWTQ">Terms &amp; Conditions</a> | <a href="http://worldesport.com/index.php?p=privacy" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=fr&amp;q=http://worldesport.com/index.php?p%3Dprivacy&amp;source=gmail&amp;ust=1477140002478000&amp;usg=AFQjCNF1hZIddggDkcpypY0zTGD8VAsDmQ">Privacy Statement</a> | <a href="http://worldesport.com/index.php?p=code-of-conduct" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=fr&amp;q=http://worldesport.com/index.php?p%3Dcode-of-conduct&amp;source=gmail&amp;ust=1477140002478000&amp;usg=AFQjCNH-UvIXm3ze_vVvG3K0tnFkeG17NA">Code of Conduct</a></td></tr>
+                <tr><td style="font-size:20px;line-height:20px" width="80%" height="20" colspan="6">&nbsp;</td></tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>

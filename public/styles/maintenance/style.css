@@ -1,0 +1,37 @@
+.wrap{
+    height:100%;
+}
+#pg-1{
+    padding-top:1%;
+    height:100%;
+}
+#logo-we{
+    width:15%;
+    height:auto;
+    margin:auto;
+    float:none;
+}
+#logo-we a{
+    height:auto;
+    float:left
+}
+#logo-we img{
+    width:100%;
+    height:auto;
+}
+#logo-we h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 40px;
+    margin:0;
+}
+.message-maintenance{
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+    text-align:center;
+    font-size:4em;
+    text-shadow: 1px 1px white, -1px 0 #6B6464;
+}

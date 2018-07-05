@@ -1,0 +1,147 @@
+/* LOADER */
+#slide-manageaccount .loader-double{
+    margin-top:250px;
+}
+
+#slide-manageaccount .body-aside-bloc{
+    padding:15px;
+}
+.manageaccount-section-container{
+    padding:0;
+}
+.manageaccount-section-container .manage-elems-container{
+    padding-left:15%;
+    padding-right:0;
+}
+.manageaccount-section-container .manage-elems-container .manage-section{
+    width:100%;
+    float:left;
+    margin-bottom:15px;
+}
+.manageaccount-section-container .manage-elems-container .manage-section:last-child{
+
+}
+.manageaccount-section-container .manage-elems-container .manage-section .title-section h1{
+    position:relative;
+    text-align:left;
+    height:32px;
+    /*line-height:32px;*/
+    display:inline-block;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .title-section h1:before{
+    content:'';
+    display:block;
+    width:10px;
+    height:10px;
+    background-color:rgba(243,177,75,1);
+    border-radius:50%;
+    margin-top:6px;
+    margin-right:11px;
+    float:left;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .body-section{
+    padding-left:10%;
+    padding-top:5px;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .body-section input{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .body-section .error-input-container{
+    min-height:0;
+    padding:0;
+    height:32px;
+    transition: height 0.25s linear;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .body-section .error-input-container.novisible{
+    height:0;
+    overflow:hidden;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .body-section .error-input-container p{
+    width: 100%;
+    text-align: left;
+    float: left;
+    padding: 0px 4px;
+    padding-right: 0;
+    border-radius: 3px;
+    color: white;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.05);
+    background-color: #e74c3c;
+    line-height: 32px;
+    margin: 0;
+    font-size: 12px;
+}
+.manageaccount-section-container .manage-elems-container .manage-section .body-section .error-input-container p:before{
+    margin-right:10px;
+}
+.manageaccount-section-container .update-button-container{
+    padding:0;
+}
+.manageaccount-section-container .update-button-container button{
+    float:right;
+}
+
+/*----------------------------------*\
+    RETINA SCREENS
+\*----------------------------------*/
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi)
+{
+    .manageaccount-section-container .manage-elems-container{
+        padding-left:7%;
+    }
+}
+/*----------------------------------*\
+    OTHER MOBILES
+\*----------------------------------*/
+@media only screen
+and (max-width : 768px)
+{
+    #slide-manageaccount .body-aside-bloc{
+        float:left;
+        width:100%;
+    }
+    .manageaccount-section-container .manage-elems-container .manage-section .body-section .error-input-container p{
+        text-align:left;
+        padding: 0;
+        padding-left: 20px;
+    }
+    .error-input-container p:before{
+        position: absolute;
+        left: 5px;
+    }
+}
+/*----------------------------------*\
+    MODILES / IPhone 6
+\*----------------------------------*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 736px)
+and (orientation: portrait)
+{
+
+}
+
+/*----------------------------------*\
+    MODILES / IPhone 4, IPhone 2
+\*----------------------------------*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (device-aspect-ratio: 2/3)
+and (orientation : portrait)
+{
+
+}
+/*----------------------------------*\
+    MODILES / IPhone 5, 5S
+\*----------------------------------*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (device-aspect-ratio: 40/71)
+and (orientation: portrait)
+{
+
+}

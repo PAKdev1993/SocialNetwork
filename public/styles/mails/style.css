@@ -1,0 +1,9 @@
+tr{
+    border:1px solid red;
+}
+td{
+    border:1px solid green;
+}
+table{
+    border:1px solid black;
+}

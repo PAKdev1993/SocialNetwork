@@ -1,0 +1,116 @@
+/*
+ * GALERY
+ */
+.main.active-galery .bloc{
+    opacity:0;
+    visibility:hidden;
+}
+#galery{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-bottom: 20px;
+}
+.main.active-galery .galery{
+    visibility:visible;
+}
+.viewer.active-galery{
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    z-index: 11;
+    opacity: 1;
+    background-color:transparent
+}
+
+.viewer.active-galery .viewer-content{
+    width:100%;
+    margin: 0;
+    transform: scale(1);
+    background-color: rgba(1,1,1,0.9);
+}
+.bloc-picture{
+    padding:0;
+    margin-top:3%;
+}
+.bloc-picture:first-child{
+    margin-top:0;
+}
+.bloc-picture:first-child{
+    padding:0;
+}
+.bloc-picture .bloc-picture-header{
+    padding:0;
+}
+.bloc-picture .bloc-picture-header .infos-title{
+    padding:0;
+}
+.bloc-picture .bloc-picture-header .infos-title .date{
+    position: relative;
+    line-height: 25px;
+    font-size: 20px;
+    margin: auto;
+    color: rgba(243,177,75,1);
+    width: 18%;
+    display: block;
+    text-align: center;
+}
+.bloc-picture .bloc-picture-header .infos-title .date:before{
+    content: ' ';
+    position: absolute;
+    height: 6px;
+    display: block;
+    margin: auto;
+    width: 20%;
+    bottom: -10px;
+    margin-left: 40%;
+    background-color: rgba(243,177,75,1);
+}
+.bloc-picture .bloc-picture-body{
+    margin-top:15px;
+    padding:0;
+}
+.bloc-picture .bloc-picture-body .picture-elem{
+    margin-bottom: 2px;
+    padding: 0px 2px;
+}
+.bloc-picture .bloc-picture-body .picture-elem .picture-header-container .picture-header{
+
+}
+.bloc-picture .bloc-picture-body .picture-elem .picture-body-container{
+    /*min-height: 100px;*/
+    padding: 0;
+}
+.bloc-picture .bloc-picture-body .picture-elem .picture-body-container .picture-body{
+    /*position:absolute;*/
+    max-height:100px;
+    padding:0;
+    overflow:hidden;
+    background-color:white;
+    border: 3px solid white;
+    box-shadow: 0 2px 0 0 rgba(182,182,182,1);
+}
+.bloc-picture .bloc-picture-body .picture-elem .picture-body-container .picture-body img{
+    display:block;
+    width:100%;
+    cursor:pointer;
+}
+@media only screen
+and (max-width : 768px)
+{
+    .bloc-picture{
+        float:left;
+        width:100%;
+    }
+    .bloc-picture .bloc-picture-header{
+        float: left;
+        width: 100%;
+    }
+    .bloc-picture .bloc-picture-header .infos-title .date{
+        width:50%;
+    }
+    .bloc-picture .bloc-picture-body{
+        float:left;
+        width:100%;
+    }
+}

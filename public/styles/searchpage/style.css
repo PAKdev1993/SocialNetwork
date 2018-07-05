@@ -1,0 +1,107 @@
+/* REDEFINITIONS */
+#item-community::after {
+    box-shadow: none;
+    background-color: transparent;
+}
+#search-results-container{
+    padding-top:15px;
+}
+/* CONTAINERS */
+#searchpage-top {
+    position: relative;
+    margin-bottom: 20px;
+}
+/* SEARCH BAR */
+.search-bar{
+    position:relative;
+    border-radius:4px;
+}
+.search-bar .search-bar-left-part{
+     position:absolute;
+     left:0;
+     width:50px;
+     height:40px;
+}
+.search-bar .search-bar-left-part:after{
+    content:'\f002';
+    position:absolute;
+    display:block;
+    line-height:40px;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+.search-bar .search-bar-right-part input{
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    line-height: 40px;
+    padding-left: 50px;
+    height: 40px;
+}
+.search-bar .search-bar-left-part{
+
+}
+/* RESULT BLOC */
+.search-results-container.empty #search-results-container{
+    padding-top:5px;
+    overflow:hidden;
+}
+#search-results-container .empty-result h1{
+    color: rgba(91, 91, 91, 0.4);
+}
+#search-results-container .contact-container .contact-infos-container h3{
+    margin: 3px 0;
+    font-family:"Helvetica", Arial, sans-serif;
+}
+/*----------------------------------*\
+    MOBILES
+\*----------------------------------*/
+@media only screen
+and (max-width: 768px)
+{
+    #searchpage-bottom{
+        width:100%;
+        float:left;
+        padding:15px;
+        margin-top:90px;
+    }
+    #searchpage-top{
+        display:none;
+    }
+    .aside-left .community-section-container{
+        float:left;
+        width:100%;
+    }
+    .search-bar{
+        border-radius:3px;
+        border: 1px solid rgba(224, 224, 224, 1);
+        padding-top:0;
+    }
+    .search-results-container{
+        border-radius:3px;
+        border: 1px solid rgba(224, 224, 224, 1);
+        width:100%;
+        float:left;
+        padding-top:0;
+    }
+    #search-results-container, .search-results-container.empty #search-results-container{
+        padding:15px;
+    }
+    .contact-container{
+        margin-top:15px;
+    }
+    .contact-container:first-child{
+        margin-top:0;
+    }
+    .contact-container:last-child{
+        margin-bottom:0;
+    }
+    /* redef app.css*/
+    .contact-pic-container{
+        width:30%;
+    }
+    .contact-container .contact-infos-container{
+        width:70%;
+    }
+}

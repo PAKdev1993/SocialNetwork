@@ -1,0 +1,124 @@
+#my-notifications-container{
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.notif-container{
+    margin:5px 0;
+    padding:0;
+}
+.notif-container:last-child{
+    margin-bottom:25px;
+}
+.notif-container .group-elem-left{
+    padding:0;
+    padding-right:15px;
+}
+.notif-container .group-elem-right{
+     padding:0;
+}
+.notif-container .group-elem-right[data-notif-link]:hover{
+    cursor:pointer;
+}
+.notif-container .group-elem-container{
+    float:left;
+    width:100%;
+    border-radius: 8px;
+    border: 1px solid rgba(200,200,200,1);
+    background-color:rgba(243,243,243,1);
+    padding:12px 0;
+    min-height: 80px;
+}
+.notif-container .group-elem-container .time{
+    text-align:center;
+    line-height: 25px;
+}
+.notif-container .group-elem-container .contact-pic-container{
+    padding: 0 5px;
+    width: 20%;
+}
+.notif-container .group-elem-container .contact-infos-container{
+    padding-left:0;
+    width:80%;
+}
+.notif-container .group-elem-container .contact-infos-container .user-actions{
+    padding:0;
+}
+.notif-container .group-elem-container .contact-infos-container .user-actions p{
+    float:left;
+}
+.notif-container .group-elem-container .contact-infos-container .user-actions p:first-child{
+    margin-right:5px;
+}
+.notif-container .group-elem-container .contact-infos-container .user-actions .action{
+    color: rgba(249,177,75,1);
+    margin:0;
+}
+.notif-container .group-elem-container .contact-infos-container .info-notif-container{
+    padding:0;
+    margin:0;
+}
+.notif-container .group-elem-container .contact-infos-container .info-notif-container p{
+    padding:0;
+    font-size:0.9em;
+}
+.notif-container .group-elem-container .contact-infos-container .info-notif-container .pic-notif-container{
+    float:left;
+    padding:3px;
+    max-height:50px;
+    overflow:hidden;
+    border: 1px solid rgba(199,199,199,0.3);
+    background-color:white;
+}
+.notif-container .group-elem-container .contact-infos-container .info-notif-container span{
+    display:block;
+    width:100%;
+    height: 43px;
+    overflow:hidden;
+}
+.notif-container .group-elem-container .contact-infos-container .info-notif-container span img{
+    width:100%;
+
+}
+@media only screen
+and (max-width: 768px)
+{
+    .notif-container{
+        width:100%;
+        float:left;
+    }
+    .notif-container .group-elem-left{
+        width:25%;
+        float:left;
+    }
+    .notif-container .group-elem-right{
+        width:75%;
+        float:left;
+    }
+    /* redef app.css*/
+    .community-elems-container{
+        padding-right:15px;
+    }
+    .contact-pic-container{
+        padding-left:10px;
+    }
+    .contact-pic-container .contact-pic{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-infos-container{
+        float: left;
+        width: 72% !important;
+        padding:5px;
+    }
+    .contact-infos .complete-name, .community-elems-container .community-elem .contact-infos h3{
+        font-size:0.8em;
+        margin-bottom:5px;
+    }
+    .notif-container .group-elem-container .contact-infos-container .user-actions .action{
+        font-size:0.8em;
+    }
+    .notif-container .group-elem-container .contact-infos-container .user-actions{
+        float:left;
+        width:100%;
+    }
+}

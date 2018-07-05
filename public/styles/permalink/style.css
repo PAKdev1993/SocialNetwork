@@ -1,0 +1,26 @@
+/* REDEFINITIONS */
+/* body */
+.body{
+    padding: 0 5%;
+}
+/* aside */
+#Permalink .aside-left{
+    overflow:visible;
+}
+/*post*/
+#Permalink .timeline-elem{
+    border: 4px solid transparent;
+    border-radius:9px;
+    margin-top:0;
+}
+#Permalink .timeline-elem-rightpart{
+    padding-top:0;
+    padding-left:0;
+    border:none;
+}
+#Permalink .timeline-elem-rightpart:before{
+    display:none;
+}
+#Permalink .bt-show-more{
+    display:none;
+}

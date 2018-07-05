@@ -1,0 +1,72 @@
+/* REDEFINITIONS */
+.aside-left{
+    padding-top: 45px;
+    overflow: visible;
+}
+.body {
+    padding: 0 2%;
+}
+
+/* BLOCS */
+#coming-soon-opportunities, #coming-soon-lobby{
+    margin-top:141px;
+}
+.coming-soon-bloc-container{
+    border-radius:3px;
+    border: 1px solid rgba(200,200,200,1);
+    background-color: white;
+    margin-bottom:20px;
+    padding:15px;
+}
+.coming-soon-bloc-container.title{
+    padding:15px;
+}
+.coming-soon-bloc-container.title h1{
+    margin:0;
+    text-align:center;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+.coming-soon-bloc-container.title h1{
+    color:rgba(252,174,73,1);
+}
+.coming-soon-bloc-container.title h1 span{
+    color:rgba(54,54,54,1);
+}
+.coming-soon-bloc-container .coming-soon-bloc{
+    padding:0;
+    text-align:justify;
+}
+.coming-soon-bloc-container .coming-soon-bloc .left-part{
+    padding:0;
+}
+.coming-soon-bloc-container .coming-soon-bloc .left-part .title{
+    padding:0 10px;
+}
+.coming-soon-bloc-container .coming-soon-bloc .left-part .title h3{
+    margin:0;
+    text-align:center;
+}
+.coming-soon-bloc-container .coming-soon-bloc .left-part .logo{
+    padding:0 10px;
+    padding-top:10px;
+}
+.coming-soon-bloc-container .coming-soon-bloc .left-part .logo img{
+    width:100%;
+}
+.coming-soon-bloc-container .coming-soon-bloc .right-part p{
+    font-size:15px;
+    text-align:justify;
+}
+@media only screen
+and (max-width : 768px)
+{
+    #coming-soon-opportunities, #coming-soon-lobby{
+        margin-top:64px;
+    }
+    .coming-soon-bloc-container{
+        border-left:none;
+        border-right:none;
+        border-radius:0;
+    }
+}
