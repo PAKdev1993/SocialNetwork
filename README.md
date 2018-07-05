@@ -4,7 +4,7 @@
 Its a social network dedicated to gamers, the first purpose is to connect all esport actors in one social website in aim to make the community less fragmented and able to create more/bigger projects together. The second one is to give the possibilitie to write a "eSport CV" like linkedIn done, to easily get lot of informations about a player.
 * Fully in PHP with no framework but based on MVC logic (maybe not fully understood by myself in 2k16)
 * Responsive
-* Traduced in 3 langs Frecnh / English / German
+* Traduced in 3 langs French / English / German
 
 **Diclaimer**
 * This project is my first real project as very junior developer, if i would do it now i probably change lot of thing and erase logic issues, security issues & bugs also write some tests.
