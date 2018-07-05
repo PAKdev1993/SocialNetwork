@@ -1,4 +1,4 @@
-# World eSport 
+# World eSport [link demo coming]
 
 **Diclaimer**
 * This project is my first real project as very junior developer, if i would do it now i probably change lot of thing and erase logic and security issues & bugs.
