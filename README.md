@@ -15,10 +15,11 @@ Its a social network dedicated to gamers, the first purpose is to connect all es
  * This project is for presentation only, it won't updated anymore
  
 **How to instal**
-1. Download database filled with datas at https://drive.google.com/open?id=17cabow0mLfAU_g9QWDh6neGApU9Y8Oo9
-2. Download files to simulate the real working website https://drive.google.com/open?id=1oDWOZzxpETXLnPtuEcXkc6CpRr55RLAG
-2. Change DB connection infos in Database.php located in *./app/Database*
-3. Run node server with server.js located in *./public/js/nodeJs*
+1. Download DB & files folder at https://drive.google.com/open?id=17cabow0mLfAU_g9QWDh6neGApU9Y8Oo9
+2. Put files folder in project's root
+3. Import the MySQL DB
+4. Change DB connection infos in Database.php located in *./app/Database*
+5. Run node server with server.js located in *./public/js/nodeJs*
 
 ## Project details
 ### Team
