@@ -8,7 +8,7 @@ class Database
 {
     private $pdo;
 
-    public function __construct($login = 'root', $password = '', $database = 'worldesportdev', $host = 'localhost')
+    public function __construct($login = '/* LOGIN DEFAULT */', $password = '/* PWD DEFAULT */', $database = '/* DB NAME DEFAULT */', $host = '/* HOST DEFAULT */')
     {
         $this->pdo = new PDO("mysql:dbname=$database; host=$host", $login, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
