@@ -21,7 +21,7 @@ Its a social network dedicated to gamers, the first purpose is to connect all es
 
 ## Project details
 ### Team
-* Marc Bethold : project manager
+* Marc Berthold : project manager
 * Theo Carasco : graphist/UX designer
 * Myself : developer, architect
 
